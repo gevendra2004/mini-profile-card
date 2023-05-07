@@ -35,11 +35,11 @@ const Card = () => {
             </div>
 
             <div className='flex justify-center gap-x-4 transition-transform -translate-x-20 duration-[1.2s] group-hover:translate-x-0 '>
-                <a className='w-[32px] h-[32px] bg-firstlight rounded-full grid place-items-center transition-transform duration-200 hover:-translate-y-1' href='https://www.linkedin.com/in/gevendra/' ><span className='inline-flex card p-1 rounded-full text-white text-base '><GrLinkedinOption /> </span></a>
+                <a className='w-[32px] h-[32px] bg-firstlight rounded-full grid place-items-center transition-transform duration-200 hover:-translate-y-1' target="_blank" href='https://www.linkedin.com/in/gevendra/' ><span className='inline-flex card p-1 rounded-full text-white text-base '><GrLinkedinOption /> </span></a>
 
-                <a className='w-[32px] h-[32px] bg-firstlight rounded-full grid place-items-center transition-transform duration-200 hover:-translate-y-1' href='https://github.com/gevendra2004'><span className='inline-flex card p-1 rounded-full text-white text-base  ' ><AiFillGithub/></span></a>
+                <a className='w-[32px] h-[32px] bg-firstlight rounded-full grid place-items-center transition-transform duration-200 hover:-translate-y-1' target="_blank" href='https://github.com/gevendra2004'><span className='inline-flex card p-1 rounded-full text-white text-base  ' ><AiFillGithub/></span></a>
 
-                <a  className='w-[32px] h-[32px] bg-firstlight rounded-full grid place-items-center transition-transform duration-200 hover:-translate-y-1' href='https://www.instagram.com/gevendra2004/'><span className='inline-flex card p-1 rounded-full text-white text-base '><AiFillInstagram/></span></a>
+                <a  className='w-[32px] h-[32px] bg-firstlight rounded-full grid place-items-center transition-transform duration-200 hover:-translate-y-1' target="_blank" href='https://www.instagram.com/gevendra2004/'><span className='inline-flex card p-1 rounded-full text-white text-base '><AiFillInstagram/></span></a>
             </div>
         </div>
 
