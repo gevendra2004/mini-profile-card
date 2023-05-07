@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    /* -------------- BASE -------------- */
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 0.938rem;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%; 
+    height: auto;
+}
+
+    /* -------------- COLORS -------------- */      
+:root {
+    --text-color: hsl(175,8%,50%);
+    --body-color:  hsl(175,100%,99%);
+    --gradient-color: linear-gradient(180deg,hsl(178,35%,45%), hsl(178, 55%, 28%));
+}
+ .card{
+    background: var(--gradient-color);
+ }
+
+ .info{
+    clip-path: circle(16px at 16.81rem 2.49rem);
+    transition: clip-path .4s ease-in-out;
+ }
+ .info:hover{
+    clip-path: circle(75%);
+ }
+
+ .info:hover .icon{
+    opacity: 0;
+ }
