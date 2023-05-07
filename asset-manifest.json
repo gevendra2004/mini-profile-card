@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mini-profile-card/static/css/main.7cd3b5c8.css",
+    "main.js": "/mini-profile-card/static/js/main.db94034e.js",
+    "static/media/IMG_20230422_193223.jpg": "/mini-profile-card/static/media/IMG_20230422_193223.b0b28fcd3662b3880ce6.jpg",
+    "index.html": "/mini-profile-card/index.html",
+    "main.7cd3b5c8.css.map": "/mini-profile-card/static/css/main.7cd3b5c8.css.map",
+    "main.db94034e.js.map": "/mini-profile-card/static/js/main.db94034e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cd3b5c8.css",
+    "static/js/main.db94034e.js"
+  ]
+}
