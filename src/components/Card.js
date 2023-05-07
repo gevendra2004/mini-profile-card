@@ -30,7 +30,7 @@ const Card = () => {
 
             <div className='grid gap-y-1 mb-6 transition-transform -translate-x-16 duration-500 group-hover:translate-x-0 '>
                 <h3 className=' text-title text-[1.25rem] font-semibold'>Gevendra Sahu</h3>
-                <p className='text-[0.75rem]'>Master in Frontend Developer</p>
+                <p className='text-[0.75rem]'>Master in Frontend Development</p>
                 <p className='text-[0.75rem]' >Chhattishgarh, India</p>
             </div>
 
